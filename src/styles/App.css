@@ -1,0 +1,127 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #0e1a2f;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: 36px auto;
+  background: #182a47;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px #0006;
+  padding: 30px 24px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+  color: #ffc107;
+  letter-spacing: 2px;
+}
+
+.player-form, .stat-spinner, .career-prediction, .leaderboard {
+  margin: 18px 0;
+  background: #253864;
+  border-radius: 12px;
+  padding: 18px;
+}
+
+.player-form input {
+  font-size: 1rem;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  margin-right: 12px;
+}
+
+button {
+  background: #ffc107;
+  color: #182a47;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 7px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: background 0.2s;
+}
+
+button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.stat-name {
+  color: #03a9f4;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.spinner-animation {
+  margin-top: 12px;
+  font-size: 1.2em;
+  color: #03a9f4;
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+.stat-result {
+  margin-top: 16px;
+  font-size: 1.5em;
+  color: #ffc107;
+}
+
+.career-prediction ul {
+  list-style: none;
+  padding: 0;
+}
+
+.career-prediction li {
+  margin: 7px 0;
+  font-size: 1.09em;
+}
+
+.reset-btn {
+  background: #03a9f4;
+  color: #fff;
+}
+
+.leaderboard {
+  margin-top: 24px;
+}
+
+.leaderboard ol {
+  padding-left: 20px;
+}
+
+.leaderboard li {
+  margin: 8px 0;
+  font-size: 1.07em;
+}
+
+.leader {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.career-mini {
+  font-size: 0.92em;
+  margin-left: 8px;
+  color: #b2dfff;
+}
+
+footer {
+  text-align: center;
+  margin-top: 28px;
+  font-size: 0.95em;
+  color: #b2dfff;
+}
